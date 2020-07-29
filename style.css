@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #282C47E5;
+
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C64752;
+}
+
+li {
+float: left;
+}
+
+li a {
+  display: block;
+  color: #EBEEF4;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #EF4D58;
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #EBEEF4;
+  text-align: center;
+  background-color: #12B58E;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  width: 300px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #EBEEF4;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #EBEEF4;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  color: #EBEEF4;
+}
+
+i {
+  font-size: 40px;
+}
+
+#pic1 {
+  width: 300px;
+}
+
+#pic2 {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #12B58E;
+  padding: 20px 20px;
+  margin: 20px;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #574FA5;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 600px;
+  text-align: center;
+}
+
+.cards {
+  justify-content: center;
+  margin: 25px auto;
+  padding: 30px;
+}
+
+.aboutme p {
+  margin: 55px;
+}
+
+.center-content {
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+  background-color: #C64752 !important;
+}
+
+ul, li {
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  letter-spacing: 0px;
+  font-size: 30px;
+}
+i {
+  padding: 30px;
+  color: #EBEEF4;
+}
+i:hover {
+  opacity: 1;
+  color: #EBEEF4;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
